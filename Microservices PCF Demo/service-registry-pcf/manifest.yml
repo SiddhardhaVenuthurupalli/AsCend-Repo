@@ -1,0 +1,8 @@
+applications:
+- name: Ascend-microservice
+  path: target/service-registry-pcf.jar
+  domain: cfapps.io
+  memory: 1G
+  instances: 1
+  services:
+  - Ascend-serviceregistry
